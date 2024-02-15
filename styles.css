@@ -1,0 +1,29 @@
+.child {
+  padding-left: 20px;
+}
+
+.item {
+  padding-left: 10px;
+}
+
+.arrow {
+  margin-left: -10px;
+  padding-left: 10px;
+  cursor: pointer;
+  background-image: url("./assets//arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: left center;
+}
+
+.arrow--active {
+  background-image: url("./assets//arrow-bottom.svg");
+}
+
+.content {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
